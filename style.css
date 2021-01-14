@@ -1,0 +1,71 @@
+
+
+
+.category-img{
+
+   width: 100%;
+   height: 300px;
+
+}
+main.woman-section.container {
+   background-color: rgb(226, 235, 195);
+}
+main.men-section.container,.service-section,footer {
+   background-color: rgb(226, 235, 195);
+}
+
+.service-margin{
+   margin-top: 50px;
+}
+.service-logo{
+   width: 80px;
+   height: 80px;
+}
+.service-title{
+   margin-top: 20px;
+   padding: 20px;
+}
+.text-orange{
+   color: orange;
+}
+.card-footer{
+   border:none;
+}
+.carousel-img{
+   width: 400px;
+   height:400px;
+}
+
+@media (max-width: 575.98px)
+{
+   .reverse-column{
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 10px;
+     
+      margin-top: 20px;
+   }
+   
+}
+@media (max-width: 767.98px) { 
+   .reverse-column{
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 10px;
+   }
+   
+ }
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+   .card-footer{
+      display: flex;
+      flex-wrap: wrap;
+   
+   }
+   .reverse-column{
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 10px;
+   }
+   
+   
+  }
