@@ -1,6 +1,6 @@
-
-
-
+.brand-img{
+   width: 250px;
+}
 .category-img{
 
    width: 100%;
@@ -42,11 +42,14 @@ main.men-section.container,.service-section,footer {
 
 @media (max-width: 575.98px)
 {
+    .navbar-brand{
+       width: 70px;
+    }
+
    .reverse-column{
       display: flex;
       flex-direction: column-reverse;
       padding: 10px;
-     
       margin-top: 20px;
    }
    
